@@ -93,7 +93,7 @@ The `UWebSocketsSubsystem` is a Game Instance Subsystem responsible for managing
             * **Broadcast Delegate:** Yes
             * **Parameters:**
                 * **`Channel` (FString):** The channel identifier of the connected connection.
-                * **`IsPCM` (bool):**  Indicates if the connection is using PCM format (currently always `true` in the delegate definition, even if default is MP3, as binary data is handled). *Note: This might need clarification if actual PCM output is intended in future versions, currently it's used to indicate binary audio data stream.*
+                * **`IsPCM` (bool):**  Indicates if the connection is using PCM format (currently always `true` in the delegate definition, even if default is MP3, as binary data is handled).
             * **Description:** Broadcast when a WebSocket connection to ElevenLabs is successfully established.
         * **`FOnElevenLabsConnectionClosed`:**
             * **Broadcast Delegate:** Yes
