@@ -141,7 +141,7 @@ Follow these steps to use the Usikulabs plugin in your Unreal Engine Blueprints:
 
 1. **Enable the Plugin:** Ensure the "Usikulabs" plugin is enabled in your project's Plugin settings. Also make sure to enable the Android Runtime Permissions plugin for the plugin to work on Android.
 
-2. **Get the WebSockets Subsystem:** Get a reference to the `WebSocketsSubsystem` using the "Get Game Instance Subsystem" node in your Blueprint.
+2. **Get the WebSockets Subsystem:** Get a reference to the `WebSocketsSubsystem` using the "Get Wesockets Subsystem" node in your Blueprint.
 
    ![Get WebSockets Subsystem Node](docs/get_websockets_subsystem.png)
 
